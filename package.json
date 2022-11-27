@@ -1,0 +1,13 @@
+{
+  "name": "adonis-winston-transport-sentry",
+  "version": "1.0.0",
+  "description": "Loggly transporter for Adonis Logger",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@sentry/node": "^7.21.1",
+    "lodash": "^4.17.21",
+    "winston": "^3.8.2",
+    "winston-loggly-bulk": "^3.2.1"
+  }
+}

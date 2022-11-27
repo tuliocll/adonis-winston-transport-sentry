@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/tuliocalil/.nvm/versions/node/v16.15.0/bin/node /Users/tuliocalil/.nvm/versions/node/v16.15.0/bin/yarn add lodash winston-loggly-bulk wiston @sentry/node
+
+PATH: 
+  /Users/tuliocalil/Library/Android/sdk/emulator:/Users/tuliocalil/.local/bin:/Users/tuliocalil/.nvm/versions/node/v16.15.0/bin:~/Library/Android/sdk/platform-tools:/Users/tuliocalil/.bin:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/tuliocalil/.cargo/bin:/Users/tuliocalil/Library/Android/sdk/platform-tools:/Users/tuliocalil/Documents/projetosjs/reactjs/goodme-front/flutter/bin:/Users/tuliocalil/Library/flutter/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/wiston: Not found
+      at Request.params.callback [as _callback] (/Users/tuliocalil/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/Users/tuliocalil/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/Users/tuliocalil/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/Users/tuliocalil/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "adonis-winston-transport-sentry",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
