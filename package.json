@@ -1,9 +1,10 @@
 {
   "name": "adonis-winston-transport-sentry",
   "version": "1.0.0",
-  "description": "Loggly transporter for Adonis Logger",
+  "description": "Sentry transporter for Adonis Logger",
   "main": "index.js",
   "license": "MIT",
+  "author": "tuliocll",
   "keywords": [
     "adonisjs",
     "adonis",
@@ -15,5 +16,13 @@
     "lodash": "^4.17.21",
     "winston": "^3.8.2",
     "winston-loggly-bulk": "^3.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuliocll/adonis-winston-transport-sentry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tuliocll/adonis-winston-transport-sentry/issues"
+  },
+  "homepage": "https://github.com/tuliocll/adonis-winston-transport-sentry#readme"
 }
