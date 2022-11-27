@@ -4,6 +4,12 @@
   "description": "Loggly transporter for Adonis Logger",
   "main": "index.js",
   "license": "MIT",
+  "keywords": [
+    "adonisjs",
+    "adonis",
+    "sentry",
+    "sentry-adonis"
+  ],
   "dependencies": {
     "@sentry/node": "^7.21.1",
     "lodash": "^4.17.21",
